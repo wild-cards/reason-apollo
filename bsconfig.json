@@ -1,18 +1,24 @@
 {
-  "name": "reason-apollo",
+  "name": "@wildcards/reason-apollo",
   "sources": [
     {
       "dir": "src",
       "public": "all",
-      "subdirs": ["graphql-types"]
+      "subdirs": [
+        "graphql-types"
+      ]
     },
     {
       "dir": "examples",
       "type": "dev"
     }
   ],
-  "bs-dependencies": ["reason-react"],
-  "bsc-flags": ["-bs-super-errors"],
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
   "reason": {
     "react-jsx": 3
   },
